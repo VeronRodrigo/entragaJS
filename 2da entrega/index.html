@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular gastos</title>
+    <link rel="stylesheet" href="/entrega/2da entrega/stylos.css">
+</head>
+<body>
+    <h1>Ejercicio Gastos Mensuales</h1>
+
+    <form id="gastosForm">
+    <label for="alimentos">Alimentos:</label>
+    <input type="number" id="alimentos" name="alimentos" min="0" value="300">
+
+    <label for="transporte">Transporte:</label>
+    <input type="number" id="transporte" name="transporte" min="0" value="150">
+
+    <label for="entretenimiento">Entretenimiento:</label>
+    <input type="number" id="entretenimiento" name="entretenimiento" min="0" value="100">
+
+    <label for="otros">Otros:</label>
+    <input type="number" id="otros" name="otros" min="0" value="50">
+
+    <label for="valorLimite">Valor Límite:</label>
+    <input type="number" id="valorLimite" name="valorLimite" min="0" value="120">
+
+    <button type="button" onclick="calcularYMostrarResultados()">Calcular y Mostrar Resultados</button>
+    </form>
+
+    <div id="resultados">
+</body>
+<script src="./index.js"></script>
+</html>
